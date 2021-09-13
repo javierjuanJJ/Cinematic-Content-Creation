@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!320 &1997566655
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3553394470795511989}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: a5613a0a7cf4c2e4389a2b12014afcc7, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 4116811577123004865, guid: a5613a0a7cf4c2e4389a2b12014afcc7, type: 2}
+    value: {fileID: 2295110226205886751}
+  m_ExposedReferences:
+    m_References: []
+--- !u!1 &174937473290242207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2117979211275585254}
+  - component: {fileID: 8014171229010753869}
+  - component: {fileID: 6281078488560162080}
+  m_Layer: 0
+  m_Name: Sneaky Chicken
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2117979211275585254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174937473290242207}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4187188619220013583}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8014171229010753869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174937473290242207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ddbf9d3bf6666344b1fb14e3e1e3e14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Type: Character
+--- !u!320 &6281078488560162080
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174937473290242207}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 8ce134ac06555c746b688b8dfa835907, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
+--- !u!1001 &1108589229
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2117979211275585254}
+    m_Modifications:
+    - target: {fileID: 3553394469687079448, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_Name
+      value: my_chicken
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d341c1dc4ac142e4b9a8b51193d1c438, type: 3}
+--- !u!1 &3553394470795511989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3553394469687079448, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+    type: 3}
+  m_PrefabInstance: {fileID: 1108589229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4187188619220013583 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4187188618180782242, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+    type: 3}
+  m_PrefabInstance: {fileID: 1108589229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2295110226205886751 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2295110227312112562, guid: d341c1dc4ac142e4b9a8b51193d1c438,
+    type: 3}
+  m_PrefabInstance: {fileID: 1108589229}
+  m_PrefabAsset: {fileID: 0}
